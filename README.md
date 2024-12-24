@@ -287,7 +287,7 @@ Ayrıca rpc'ye bağlanabilmek için 8545 numaralı portu açıyoruz o da şu kom
 ```
 sudo ufw allow 8545
 ```
-Buradan artık kontrat mı deploy edersiniz, manuel tx mi kasarsınız size kalmış.
+Buradan artık kontrat mı deploy edersiniz, manuel tx mi kasarsınız size kalmış..
 
 Track işleminde rpc hatası alanlar rollback yapmayı denesinler. Bazen 1 bazen 3 rollback işlemiyle sorun çözülüyor.
 Kaç kez rollback yapmak istiyorsanız ``go run cmd/main.go rollback`` komutunu o kadar çalıştırın, her seferinde çıktıyı bekleyin.
